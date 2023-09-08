@@ -4,6 +4,24 @@ The goal of this project was to create a short raytraced animation of a cityscap
 
 # Report
 
+## Table of Contents
+
+1. [General Implementation Details](#general-implementation-details)
+2. [Features](#features)
+    1. [Reflections](#1-reflections)
+    2. [Refractions](#2-refractions)
+    3. [Glossy reflection/refraction](#3-glossy-reflectionrefraction)
+    4. [Anti-aliasing](#4-anti-aliasing)
+    5. [Depth of field](#5-depth-of-field)
+    6. [Dynamic skydome (Rayleigh and Mie scattering)](#6-dynamic-skydome-rayleigh-and-mie-scattering)
+    7. [Animation](#7-animation-using-keyframes)
+    8. [Atmospheric fog](#8-atmospheric-fog)
+    9. [Phong shading](#9-phong-shading)
+    10. [Final scene](#10-final-scene)
+3. [Bibliography](#bibliography)
+4. [Credits](#credits)
+
+
 ## General Implementation Details
 
 The raytracer is implemented from scratch in C++, using some provided code for PNG output and Lua bindings.
@@ -92,7 +110,7 @@ The **focalDistance** and **blurAmount** parameters for a scene define the depth
 
 
 
-### 6. Dynamic skydome (simulated atmosphere)
+### 6. Dynamic skydome (Rayleigh and Mie scattering)
 
 <div align="center">
 <img src="Assets/obj6/0.png" width="128" height="128">
@@ -164,7 +182,7 @@ For animated movement, a new **`KeyframeNode`** type was introduced, which has p
 
 
 
-### 8. Skydome-tinted fog
+### 8. Atmospheric fog
 
 <div align="center">
 <img src="Assets/obj8-nofog.png" width="256" height="256">

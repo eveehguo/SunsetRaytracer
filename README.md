@@ -1,10 +1,10 @@
 # CS 488 Final Project — Sunset Cityscape
 
-The goal of this project was to create a short raytraced animation of a cityscape at sunset. The highlight of the project is a dynamic (time-varying) simulation of the sky over the course of a sunset, modeling Rayleigh scattering and Mie scattering. The final, 15 second animation can be viewed [on YouTube](https://youtu.be/cKN7hP73rXg):
+The goal of this project was to create a short raytraced animation of a cityscape at sunset. The highlight of the project is a dynamic (time-varying) simulation of the sky over the course of a sunset, modeling Rayleigh scattering and Mie scattering.
 
 <div align="center">
 
-[![YouTube thumbnail](http://img.youtube.com/vi/cKN7hP73rXg/0.jpg)](http://www.youtube.com/watch?v=cKN7hP73rXg)
+https://github.com/user-attachments/assets/ee9b9981-92bb-4f99-a538-edc3988a4452
 
 </div>
 
